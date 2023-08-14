@@ -80,7 +80,13 @@ i{
  
 .hero__main{
     display: flex;
+    
+    
 }
+.hero__main img{
+    max-width: 650px;
+}
+
 
 
  .hero__main > div{ 
@@ -171,7 +177,7 @@ main h6{
     grid-template-areas: 
         "item1 item2 item3";
     gap: 2.5rem;
-    /* background-image: url(../imagenes/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png);     */
+    
         
 }
 .grid__item{
@@ -362,7 +368,13 @@ main h6{
         grid-template-columns: 1fr 1fr;
     }
     .hero__main img{
-        max-width: 480px ;
+        max-width: 360px ;
+    }
+    .campera h5{
+        padding-inline: 2.5px;
+    }
+    .zapatilla h5{
+        padding-inline: 2.5px;
     }
 
 }
